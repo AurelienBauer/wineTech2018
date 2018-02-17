@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../assets/css/materialize.min.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="../assets/css/pattern.css" media="screen,projection"/>
+
+    <meta charset="UTF-8">
+</head>
+<body>
+<div class="row">
+    <div class="col s2 my_side_nav white">
+        <ul class="row">
+            <li>
+
+            </li>
+            <li class="col s12 center">
+                <a class="waves-effect waves-light btn width_button">Expéditions</a>
+            </li>
+            <li class="col s12 center">
+                <a class="waves-effect waves-light btn width_button">Devis</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col s10 padding_null">
+        <ul id="myprofile" class="dropdown-content">
+            <li><a href="#!">Mon profil</a></li>
+            <li><a href="#!">paramètres</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Déconnexion</a></li>
+        </ul>
+        <nav>
+            <div class="nav-wrapper red accent-2">
+                <ul>
+                    <li class="main_title">Devis</li>
+                </ul>
+                <ul class="right">
+                    <li><img class="circle user_img" src="../assets/img/Accord-G-Sol-majeur-variante.png"></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="myprofile">Profile
+                        <i class="material-icons right">arrow_drop_down</i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section id="main_content " class="main_part">
+            <ul class="tabs">
+                <li class="tab col s3"><a class="active" href="#manuel">Information devis</a></li>
+                <li class="tab col s3"><a href="#telecharger">Télécharger un fichier</a></li>
+            </ul>
+            <div id="manuel" class="col s12">
+                <form class="col s6">
+                    <h4>Information expéditeur</h4>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input type="text" class="validate">
+                            <label>Nom :</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input type="text" class="validate">
+                            <label>Société :</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input type="text" class="validate">
+                            <label>Adresse :</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input type="text" class="validate">
+                            <label>Code postale :</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input type="text" class="validate">
+                            <label>Ville:</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input type="text" class="validate">
+                            <label>nombre de bouteils :</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input type="text" class="validate">
+                            <label>Nombre de colis :</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input type="text" class="validate">
+                            <label>Prix en € :</label>
+                        </div>
+                    </div>
+
+
+                </form>
+                <form class="col s6">
+                    <h4>Information destinataire</h4>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input type="text" class="validate">
+                            <label>Nom :</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input type="text" class="validate">
+                            <label>Société :</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input type="text" class="validate">
+                            <label>Adresse :</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input type="text" class="validate">
+                            <label>Code postale :</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input type="text" class="validate">
+                            <label>Ville :</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input type="text" class="validate">
+                            <label>Pays :</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button class='col s2 btn btn-large waves-effect red accent-4'>Valider</button>
+                    </div>
+                </form>
+            </div>
+            <div id="telecharger" class="col s12">
+                    <strong>Drag one or more files to this Drop Zone ...</strong>
+            </div>
+        </section>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../assets/javascript/materialize.min.js"></script>
+<script type="text/javascript" src="../assets/javascript/pattern.js"></script>
+</body>
+</html>
