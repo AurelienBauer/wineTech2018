@@ -48,40 +48,68 @@
         </nav>
         <section id="main_content ">
 
-            <div class="row">
-                <form class="col s6">
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <input placeholder="FRANCE" id="pays" type="text" class="validate">
-                            <label for="pays">Pays de destination:</label>
-                        </div>
-                        <div class="input-field col s6">
-                            <input placeholder="COLMAR" id="ville" type="text" class="validate">
-                            <label for="ville">Ville:</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <input placeholder="0" id="nbr_bouteilles" type="text" class="validate">
-                            <label for="nbr_bouteilles">Nombres de bouteilles:</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <input placeholder="0" id="nbr_colis" type="text" class="validate">
-                            <label for="nbr_colis">Nombres de colis:</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <input placeholder="0" id="valeur" type="text" class="validate">
-                            <label for="valeur">Valeur en €:</label>
-                        </div>
-                    </div>
-                    <button class="btn waves-effect red accent-2" type="submit" name="action">Simuler
-                        <i class="material-icons right">attach_money</i>
-                    </button>
-                </form>
+	<div class="row">
+		<form class="col s12">
+			<div class="row">
+				<div class="input-field col s3">
+					<input placeholder="FRANCE" id="pays" type="text" class="validate">
+					<label for="pays">Pays de destination:</label>
+				</div>
+				<div class="input-field col s3">
+					<input placeholder="COLMAR" id="ville" type="text" class="validate">
+					<label for="ville">Ville:</label>
+				</div>
+				<div class="col s6">
+					<h5 class="center">Choix transporteurs:</h5>
+					<div class="mdc-card">
+						<div class="my-card mdc-card__media mdc-card__media--square">
+							<div class="mdc-card__media-content">DHL</div>
+						</div>
+						<!-- ... content ... -->
+						<div class="mdc-card__actions">
+							<div class="mdc-card__action-buttons">
+								<button class="mdc-button mdc-card__action mdc-card__action--button">Voir l'offre</button>
+							</div>
+						</div>
+						<div class="my-card mdc-card__media mdc-card__media--square">
+							<div class="mdc-card__media-content">Fedex</div>
+						</div>
+						<!-- ... content ... -->
+						<div class="mdc-card__actions">
+							<div class="mdc-card__action-buttons">
+								<button class="mdc-button mdc-card__action mdc-card__action--button">Voir l'offre</button>
+							</div>
+						</div>
+						<div class="my-card mdc-card__media mdc-card__media--square">
+							<div class="mdc-card__media-content">UPS</div>
+						</div>
+						<!-- ... content ... -->
+						<div class="mdc-card__actions">
+							<div class="mdc-card__action-buttons">
+								<button class="mdc-button mdc-card__action mdc-card__action--button">Voir l'offre</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="input-field col s1">
+					<input placeholder="0" id="nbr_bouteilles" type="number" class="validate">
+					<label for="nbr_bouteilles">Nombres de bouteilles:</label>
+				</div>
+			</div>
+			<div class="row">
+				<div class="input-field col s3">
+					<input placeholder="0" id="nbr_colis" type="text" class="validate">
+					<label for="nbr_colis">Nombres de colis:</label>
+				</div>
+			</div>
+			<div class="row">
+				<div class="input-field col s3">
+					<input placeholder="0" id="valeur" type="text" class="validate">
+					<label for="valeur">Valeur en €:</label>
+				</div>
+			</div>
 
                 <div class="col s6" id="simulation">
                     <div class="row">
