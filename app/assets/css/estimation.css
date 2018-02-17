@@ -1,13 +1,19 @@
 .small{
-	margin-top: 2rem;
+	margin-top: 1rem !important;
+    margin-bottom: 0 !important;
 }
 
-.card-conten{
+.card-content{
 	padding-top: 0 !important;
 }
 
+
+.card-image > img {
+    top: -2rem;
+}
+
 #simulation{
-	z-index: -1;
+	/*z-index: -1;*/
 	height: 100%;
 	box-shadow:
 			0 2px 2px 0 rgba(0,0,0,0.14),
@@ -22,4 +28,8 @@
 .see:hover{
 	text-decoration: underline;
 	cursor: hand;
+}
+
+.padding_top_3{
+    padding-top: 3rem !important;
 }
