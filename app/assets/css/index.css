@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Wine Date";
+    src: url('../fonts/WineDate-Regular.ttf');
+}
 
 body {
     display: flex;
@@ -32,6 +36,18 @@ h5 {
     color: #d50000
 }
 
-#color-red-flash {
+.color-red-flash {
     color: #d50000
+}
+
+.main_title {
+    font-family: "Wine Date";
+    font-size: 4rem;
+    padding-left: 0.5rem;
+}
+
+.logo-vin {
+    width: 58px;
+    padding-left: 5px;
+    padding-top: 5px;
 }
