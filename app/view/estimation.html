@@ -6,6 +6,9 @@
 	<!--Import materialize.css-->
 	<link type="text/css" rel="stylesheet" href="../assets/css/materialize.min.css" media="screen,projection" />
 
+	<!--CSS for cards-->
+	<link type="text/css" rel="stylesheet" href="../assets/css/estimation.css" />
+
 	<!--Let browser know website is optimized for mobile-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
@@ -61,13 +64,45 @@
 	<div class="row">
 		<form class="col s12">
 			<div class="row">
-				<div class="input-field col s4">
+				<div class="input-field col s3">
 					<input placeholder="FRANCE" id="pays" type="text" class="validate">
 					<label for="pays">Pays de destination:</label>
 				</div>
-				<div class="input-field col s4">
+				<div class="input-field col s3">
 					<input placeholder="COLMAR" id="ville" type="text" class="validate">
 					<label for="ville">Ville:</label>
+				</div>
+				<div class="col s6">
+					<h5 class="center">Choix transporteurs:</h5>
+					<div class="mdc-card">
+						<div class="my-card mdc-card__media mdc-card__media--square">
+							<div class="mdc-card__media-content">DHL</div>
+						</div>
+						<!-- ... content ... -->
+						<div class="mdc-card__actions">
+							<div class="mdc-card__action-buttons">
+								<button class="mdc-button mdc-card__action mdc-card__action--button">Voir l'offre</button>
+							</div>
+						</div>
+						<div class="my-card mdc-card__media mdc-card__media--square">
+							<div class="mdc-card__media-content">Fedex</div>
+						</div>
+						<!-- ... content ... -->
+						<div class="mdc-card__actions">
+							<div class="mdc-card__action-buttons">
+								<button class="mdc-button mdc-card__action mdc-card__action--button">Voir l'offre</button>
+							</div>
+						</div>
+						<div class="my-card mdc-card__media mdc-card__media--square">
+							<div class="mdc-card__media-content">UPS</div>
+						</div>
+						<!-- ... content ... -->
+						<div class="mdc-card__actions">
+							<div class="mdc-card__action-buttons">
+								<button class="mdc-button mdc-card__action mdc-card__action--button">Voir l'offre</button>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="row">
@@ -89,12 +124,11 @@
 				</div>
 			</div>
 
-			<button class="btn waves-effect waves-light" type="submit" name="action">Simulation
+			<button class="btn waves-effect red accent-2" type="submit" name="action">Simuler
   	<i class="material-icons right">attach_money</i>
 		</button>
 		</form>
 	</div>
-
 </body>
 
 </html>
