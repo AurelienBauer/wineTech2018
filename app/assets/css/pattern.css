@@ -44,3 +44,18 @@ body
     font-size: 3rem;
     padding-left: 0.5rem;
 }
+
+.size_5{
+    width: 5rem;
+}
+
+.mark {
+    font-family: "Wine Date";
+    font-size: 4rem;
+    padding-left: 0.5rem;
+    margin-top: 0;
+}
+
+.mark_border {
+    border-bottom: 1px solid #ff5252 !important;
+}
