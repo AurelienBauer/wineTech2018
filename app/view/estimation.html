@@ -19,7 +19,7 @@
 
             </li>
             <li class="col s12 center">
-                <a class="waves-effect waves-light btn width_button">Expéditions</a>
+                <a class="waves-effect waves-light btn width_button">Estimation</a>
             </li>
             <li class="col s12 center">
                 <a class="waves-effect waves-light btn width_button">Devis</a>
@@ -36,7 +36,7 @@
         <nav>
             <div class="nav-wrapper red accent-2">
                 <ul>
-                    <li class="main_title">Éstimation...</li>
+                    <li class="main_title">Estimation...</li>
                 </ul>
                 <ul class="right">
                     <li><img class="circle user_img" src="../assets/img/Accord-G-Sol-majeur-variante.png"></li>
@@ -48,69 +48,37 @@
         </nav>
         <section id="main_content ">
 
-	<div class="row">
-		<form class="col s12">
-			<div class="row">
-				<div class="input-field col s3">
-					<input placeholder="FRANCE" id="pays" type="text" class="validate">
-					<label for="pays">Pays de destination:</label>
-				</div>
-				<div class="input-field col s3">
-					<input placeholder="COLMAR" id="ville" type="text" class="validate">
-					<label for="ville">Ville:</label>
-				</div>
-				<div class="col s6">
-					<h5 class="center">Choix transporteurs:</h5>
-					<div class="mdc-card">
-						<div class="my-card mdc-card__media mdc-card__media--square">
-							<div class="mdc-card__media-content">DHL</div>
-						</div>
-						<!-- ... content ... -->
-						<div class="mdc-card__actions">
-							<div class="mdc-card__action-buttons">
-								<button class="mdc-button mdc-card__action mdc-card__action--button">Voir l'offre</button>
-							</div>
-						</div>
-						<div class="my-card mdc-card__media mdc-card__media--square">
-							<div class="mdc-card__media-content">Fedex</div>
-						</div>
-						<!-- ... content ... -->
-						<div class="mdc-card__actions">
-							<div class="mdc-card__action-buttons">
-								<button class="mdc-button mdc-card__action mdc-card__action--button">Voir l'offre</button>
-							</div>
-						</div>
-						<div class="my-card mdc-card__media mdc-card__media--square">
-							<div class="mdc-card__media-content">UPS</div>
-						</div>
-						<!-- ... content ... -->
-						<div class="mdc-card__actions">
-							<div class="mdc-card__action-buttons">
-								<button class="mdc-button mdc-card__action mdc-card__action--button">Voir l'offre</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="input-field col s1">
-					<input placeholder="0" id="nbr_bouteilles" type="number" class="validate">
-					<label for="nbr_bouteilles">Nombres de bouteilles:</label>
-				</div>
-			</div>
-			<div class="row">
-				<div class="input-field col s3">
-					<input placeholder="0" id="nbr_colis" type="text" class="validate">
-					<label for="nbr_colis">Nombres de colis:</label>
-				</div>
-			</div>
-			<div class="row">
-				<div class="input-field col s3">
-					<input placeholder="0" id="valeur" type="text" class="validate">
-					<label for="valeur">Valeur en €:</label>
-				</div>
-			</div>
-
+            <div class="row">
+                <form class="col s6">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input placeholder="FRANCE" id="pays" type="text" class="validate">
+                            <label for="pays">Pays de destination:</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <input placeholder="COLMAR" id="ville" type="text" class="validate">
+                            <label for="ville">Ville:</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input placeholder="0" id="nbr_bouteilles" type="number" class="validate">
+                            <label for="nbr_bouteilles">Nombres de bouteilles:</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input placeholder="0" id="nbr_colis" type="number" class="validate">
+                            <label for="nbr_colis">Nombres de colis:</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input placeholder="0" id="valeur" type="number" class="validate">
+                            <label for="valeur">Valeur en €:</label>
+                        </div>
+                    </div>
+                </form>
                 <div class="col s6" id="simulation">
                     <div class="row">
                         <div class="col s12">
@@ -121,7 +89,8 @@
                                 </div>
                                 <div class="card-content" style="padding: 0 0 0 1rem">
                                     <h4 class="col s6">55 €</h4>
-                                    <a class="red-text accent-4 right-align"><h5 class="col s6 see">Voir l'offre</h5></a>
+                                    <a class="red-text accent-4 right-align"><h5 class="col s6 see">Voir l'offre</h5>
+                                    </a>
                                 </div>
                             </div>
                         </div>
