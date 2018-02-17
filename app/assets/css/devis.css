@@ -9,6 +9,7 @@
     width:auto;
     height:300px;
     position: relative;
+    background-color: #d9d9db;
 }
 
 .center-text {
@@ -19,4 +20,8 @@
     font-family: "Wine Date";
     font-size: 3rem;
     padding-left: 0.5rem;
+}
+
+p:hover {
+    color: #8b8d91;
 }
