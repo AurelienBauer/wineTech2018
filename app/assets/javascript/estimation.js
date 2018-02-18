@@ -36,7 +36,7 @@ $(document).ready(function() {
 function get_html_cost(cost, fee, country, imprt) {
     var html;
     if (country == "Bresil")
-        html = cost + " €</br>Taxe total d'imporation: "+imprt+" €";
+        html = "Coût transport : " + cost + " €</br>Taxes total : "+imprt+" €";
     else
         html = cost + " €</br>Frais d'exportation : " + fee + " €";
     return html;
