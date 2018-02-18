@@ -25,3 +25,8 @@
 p:hover {
     color: #8b8d91;
 }
+
+.bord {
+    padding-left: 58px;
+    padding-right: 58px;
+}
