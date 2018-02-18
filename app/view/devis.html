@@ -50,7 +50,7 @@
         </nav>
         <section id="main_content" class="overflow">
             <ul class="tabs ; tabs-fixed-width">
-                <li class="tab col s3"><a class="active" href="#manuel">Information devis</a></li>
+                <li class="tab col s3" id="info"><a class="active" href="#manuel">Information devis</a></li>
                 <li class="tab col s3"><a href="#telecharger">Télécharger un fichier</a></li>
             </ul>
             <div id="manuel" class="col s12">
@@ -192,10 +192,21 @@
                     <a href="./recap.html" class='col s4 btn btn-large waves-effect red accent-4'>Valider</a>
                 </div>
             </div>
-            <div id="telecharger" class="col s12">
+            <div id="telecharger" class="col s12" ondrop="drop(event)" ondragover="allowDrop(event)">
                 <div class="zone">
                     <p class="center-text">Glisser votre fichier ici</p>
-                </div>
+                </div>l
+                <!--<div class="preloader-wrapper active" id="loader">
+                    <div class="spinner-layer spinner-red-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div><div class="gap-patch">
+                        <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                    </div>
+                </div>-->
                 <form action="#">
                     <div class="file-field input-field; bord">
                         <div class="btn">
@@ -216,5 +227,6 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="../assets/javascript/materialize.min.js"></script>
 <script type="text/javascript" src="../assets/javascript/pattern.js"></script>
+<script type="text/javascript" src="../assets/javascript/devis.js"></script>
 </body>
 </html>
