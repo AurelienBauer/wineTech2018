@@ -32,3 +32,7 @@
 .padding_top_3{
     padding-top: 3rem !important;
 }
+
+label{
+    font: normal 16px courier !important;
+}
