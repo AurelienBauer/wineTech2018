@@ -21,10 +21,10 @@
                 <h2 class="mark"><img class="size_5" src="../assets/logo/logo_wine.png">Wine'op</h2>
             </li>
             <li class="col s12 center">
-                <a class="waves-effect waves-light btn width_button">Estimation</a>
+                <a href="./estimation.html" class="waves-effect waves-light btn width_button">Estimation</a>
             </li>
             <li class="col s12 center">
-                <a class="waves-effect waves-light btn width_button">Devis</a>
+                <a href="./devis.html" class="waves-effect waves-light btn width_button">Devis</a>
             </li>
         </ul>
     </div>
@@ -33,7 +33,7 @@
             <li><a href="#!">Mon profil</a></li>
             <li><a href="#!">Paramètres</a></li>
             <li class="divider"></li>
-            <li><a href="#!">Déconnexion</a></li>
+            <li><a href="./index.html">Déconnexion</a></li>
         </ul>
         <nav>
             <div class="nav-wrapper red accent-2">
@@ -62,61 +62,61 @@
                         <br/>
                         <div align="center">
                             <div class="input-field col s6">
-                                <input type="text" class="validate">
+                                <input value="John Doe" type="text" class="validate">
                                 <label>Nom :</label>
                             </div>
                         </div>
                         <div align="center">
                             <div class="input-field col s6">
-                                <input type="text" class="validate">
+                                <input value="Wine Inc." type="text" class="validate">
                                 <label>Société :</label>
                             </div>
                         </div>
                         <div align="center">
                             <div class="input-field col s6">
-                                <input type="text" class="validate">
+                                <input value="13 rue de Verdun"type="text" class="validate">
                                 <label>Adresse :</label>
                             </div>
                         </div>
                         <div align="center">
                             <div class="input-field col s6">
-                                <input type="text" class="validate">
+                                <input value="68000"type="text" class="validate">
                                 <label>Code postale :</label>
                             </div>
                         </div>
                         <div align="center">
                             <div class="input-field col s6">
-                                <input type="text" class="validate">
+                                <input value="Colmar" type="text" class="validate">
                                 <label>Ville :</label>
                             </div>
                         </div>
                         <div align="center">
                             <div class="input-field col s6">
-                                <input type="text" class="validate">
+                                <input placeholder="16"type="text" class="validate">
                                 <label>Nombre de bouteilles :</label>
                             </div>
                         </div>
                         <div align="center">
                             <div class="input-field col s6">
-                                <input type="text" class="validate">
+                                <input placeholder="1" type="text" class="validate">
                                 <label>Nombre de colis :</label>
                             </div>
                         </div>
                         <div align="center">
                             <div class="input-field col s6">
-                                <input type="text" class="validate">
+                                <input placeholder="32"type="text" class="validate">
                                 <label>Poids net en Kg :</label>
                             </div>
                         </div>
                         <div align="center">
                             <div class="input-field col s6">
-                                <input type="text" class="validate">
+                                <input placeholder=""type="text" class="validate">
                                 <label>Frais de ports en € :</label>
                             </div>
                         </div>
                         <div align="center">
                             <div class="input-field col s6">
-                                <input type="text" class="validate">
+                                <input placeholder=""type="text" class="validate">
                                 <label>Prix total en € :</label>
                             </div>
                         </div>
@@ -165,13 +165,24 @@
                             </div>
                         </div>
                     </form>
-                    <a href="recap.html" class='col s4 btn btn-large waves-effect red accent-4'>Valider</a>
+                    <a href="./recap.html" class='col s4 btn btn-large waves-effect red accent-4'>Valider</a>
                 </div>
             </div>
             <div id="telecharger" class="col s12">
                 <div class="zone">
                     <p class="center-text">Glisser votre fichier ici</p>
                 </div>
+                <form action="#">
+                    <div class="file-field input-field; bord">
+                        <div class="btn">
+                            <span>Rechercher fichier</span>
+                            <input type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate" type="text">
+                        </div>
+                    </div>
+                </form>
             </div>
         </section>
     </div>
